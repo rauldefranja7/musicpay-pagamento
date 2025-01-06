@@ -9,7 +9,6 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "nvmoreyzrz");
     </script>
-    <!-- Meta Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -25,39 +24,13 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=3750615275152249&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End Meta Pixel Code -->
-    
-    <script>
-    // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USUÁRIO TENTAR SAIR
-    const link = 'https://go.disruptybr.com.br/z4pl81lbrz';
-
-    function setBackRedirect(url) {
-        let urlBackRedirect = url;
-        urlBackRedirect = urlBackRedirect =
-        urlBackRedirect.trim() +
-        (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
-        document.location.search.replace('?', '').toString();
-
-        history.pushState({}, '', location.href);
-        history.pushState({}, '', location.href);
-        history.pushState({}, '', location.href);
-
-        window.addEventListener('popstate', () => {
-        console.log('onpopstate', urlBackRedirect);
-        setTimeout(() => {
-            location.href = urlBackRedirect;
-        }, 1);
-        });
-    }
-
-    setBackRedirect(link);
-    </script>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Pay - Oferta Especial</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Estilo geral */
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f9f9f9;
@@ -95,7 +68,7 @@
         .btn-green, .btn-orange {
             color: white;
             font-size: 1rem;
-            padding: 10px 30px; /* Ajuste o padding para mais espaço */
+            padding: 10px 30px;
             border: none;
             border-radius: 50px;
             margin-top: 15px;
@@ -109,7 +82,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            width: auto; /* Permite que os botões ajustem seu tamanho ao conteúdo */
+            width: auto;
         }
         .btn-green {
             background-color: #28a745;
@@ -154,6 +127,37 @@
             margin-bottom: 15px;
             font-weight: bold;
         }
+        
+        /* Estilo para a seção de depoimentos */
+        .testimonials {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .testimonials h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .testimonial-item {
+            display: inline-block;
+            margin: 10px;
+            max-width: 250px;
+        }
+        .testimonial-item img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .testimonial-item p {
+            font-size: 1rem;
+            color: #555;
+            font-style: italic;
+        }
+        .testimonial-item span {
+            display: block;
+            font-weight: bold;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -182,6 +186,26 @@
             <li>E MUITO MAIS...</li>
         </ul>
 
+        <!-- Seção de Depoimentos -->
+        <div class="testimonials">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="testimonial-item">
+                <img src="https://via.placeholder.com/150" alt="Depoimento 1">
+                <p>"O Music Pay mudou minha rotina! Agora consigo ganhar dinheiro enquanto escuto as minhas músicas favoritas!"</p>
+                <span>Marina Souza</span>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://via.placeholder.com/150" alt="Depoimento 2">
+                <p>"Simplesmente incrível! O aplicativo é super fácil de usar e o dinheiro entra rápido."</p>
+                <span>Eduardo Leite</span>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://via.placeholder.com/150" alt="Depoimento 3">
+                <p>"Recomendo muito! A plataforma é rápida e a proposta de pagamento funciona muito bem."</p>
+                <span>Ana Clara</span>
+            </div>
+        </div>
+
         <a href="https://go.disruptybr.com.br/z4pl81lbrz" class="btn-green">QUERO O APP AGORA</a>
 
         <!-- Novas Linhas de Texto e Botão Adicional -->
@@ -198,15 +222,6 @@
                 
                 <p>Essa é uma oportunidade única para garantir o seu acesso a todas as funcionalidades do Music Pay por um preço imperdível.</p>
                 <p>Aproveite agora antes que essa oferta especial acabe!</p>
-
-                <div style="text-align: center; font-weight: bold; font-size: 16px;">
-                    Escolha seu plano:
-                </div>
-                <div style="width: auto; max-width: 400px; text-align: center; margin: 0 auto;">
-                    <a href="https://go.disruptybr.online/kgobq" class="btn-green">Quero lucrar mais com MusicPay Premium</a>
-                    <a href="https://go.disruptybr.online/z4pl81lbrz" class="btn-orange">Quero lucros moderados com MusicPay Básico</a>
-                </div>
-                <p>Escolha entre dois planos: o <strong>Básico</strong> por R$27,90 e o <strong>Premium</strong> por R$67,90. Com o plano Premium, você terá acesso a mais músicas e maiores ganhos!</p>
             </div>
         </div>
     </div>
